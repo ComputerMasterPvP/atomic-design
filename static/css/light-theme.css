@@ -1,0 +1,34 @@
+/* BUTTONS */
+
+a.button-light {
+  color: #303030;
+  background-color: #E0E0E0;
+}
+
+
+/* CHECKBOXES */
+
+input.checkbox-light {
+  background-color: #E0E0E0;
+}
+
+input.checkbox-light:checked {
+  background-color: #AAAAAA;
+}
+
+input.checkbox-light::after {
+  background-color: white;
+}
+
+/* CARDS */
+
+div.card-light {
+  background-color: #E0E0E0;
+  color: #303030;
+}
+
+/* TEXTAREAS */
+textarea.textarea-light {
+  background-color: #E0E0E0;
+  color: #303030;
+}

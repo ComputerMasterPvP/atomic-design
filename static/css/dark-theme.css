@@ -1,0 +1,34 @@
+/* BUTTONS */
+
+a.button-dark {
+  color: #E0E0E0;
+  background-color: #303030;
+}
+
+/* CHECKBOXES */
+
+input.checkbox-dark {
+  background-color: #BBBBBB;
+}
+
+input.checkbox-dark:checked {
+  background-color: #303030;
+}
+
+input.checkbox-dark::after {
+  background-color: white;
+}
+
+/* CARDS */
+
+div.card-dark {
+  background-color: #303030;
+  color: #E0E0E0;
+}
+
+/* TEXTAREAS */
+
+textarea.textarea-dark {
+  background-color: #303030;
+  color: #E0E0E0;
+}
