@@ -55,7 +55,7 @@ div.card {
   display: inline-block;
   margin: 0.5em;
   padding: 1em;
-  border-radius: 1em;
+  border-radius: 0.5em;
   box-shadow: #757575 1px 3px 8px 0px;
   width: 320px;
 }
@@ -65,7 +65,7 @@ textarea.textarea {
   margin: 0.5em;
   outline: none;
   padding: 2em 1em;
-  border-radius: 1em;
+  border-radius: 0.5em;
   border: none;
   resize: none;
   box-shadow: #757575 1px 3px 8px 0px;
