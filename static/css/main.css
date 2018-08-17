@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  padding: 0px 10px;
+  padding: 0px 10px 10px;
 }
 
 div.elements {
@@ -57,7 +57,7 @@ div.card {
   padding: 1em;
   border-radius: 1em;
   box-shadow: #757575 1px 3px 8px 0px;
-  width: 25%;
+  width: 320px;
 }
 
 /* TEXTAREAS */
@@ -71,4 +71,15 @@ textarea.textarea {
   box-shadow: #757575 1px 3px 8px 0px;
   font-size: 1em;
   font-family: inherit;
+}
+
+/* TEXTBOXES */
+input.textbox {
+  outline: none;
+  padding: 1em;
+  font-family: inherit;
+  font-size: 1em;
+  border: none;
+  border-radius: 0.2em;
+  margin: 0.5em;
 }

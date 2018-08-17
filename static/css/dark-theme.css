@@ -32,3 +32,9 @@ textarea.textarea-dark {
   background-color: #303030;
   color: #E0E0E0;
 }
+
+/* TEXTBOXES */
+input.textbox-dark {
+  background-color: #303030;
+  color: #E0E0E0;
+}
