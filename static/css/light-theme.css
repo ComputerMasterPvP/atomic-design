@@ -1,6 +1,6 @@
 /* BUTTONS */
 
-a.button-light {
+a.button, a.button-light {
   color: #303030;
   background-color: #E0E0E0;
 }
@@ -8,33 +8,33 @@ a.button-light {
 
 /* CHECKBOXES */
 
-input.checkbox-light {
+input.checkbox, input.checkbox-light {
   background-color: #E0E0E0;
 }
 
-input.checkbox-light:checked {
+input.checkbox:checked, input.checkbox-light:checked {
   background-color: #AAAAAA;
 }
 
-input.checkbox-light::after {
+input.checkbox::after, input.checkbox-light::after {
   background-color: white;
 }
 
 /* CARDS */
 
-div.card-light {
+div.card, div.card-light {
   background-color: #E0E0E0;
   color: #303030;
 }
 
 /* TEXTAREAS */
-textarea.textarea-light {
+textarea.textarea, textarea.textarea-light {
   background-color: #E0E0E0;
   color: #303030;
 }
 
 /* TEXTBOXES */
-input.textbox-light {
+input.textbox, input.textbox-light {
   background-color: #E0E0E0;
   color: #303030;
 }

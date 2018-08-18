@@ -3,32 +3,29 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/main.css">
-    <link rel="stylesheet" href="../static/css/dark-theme.css">
-    <link rel="stylesheet" href="../static/css/light-theme.css">
+    <!-- <link rel="stylesheet" href="../static/css/dark-theme.css">
+    <link rel="stylesheet" href="../static/css/light-theme.css"> -->
+    <link rel="stylesheet" id="theme" href="../static/css/light-theme.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Components</title>
   </head>
   <body>
+
     <h1>Atomic Design</h1>
+    <div class="toolbar">
+      <input id="themeChooser" type="checkbox" class="checkbox" />
+      <br>
+      Theme Switcher
+    </div>
     <div class="elements">
       <h2>Buttons (Links)</h2>
-      <a href="#dark-button" class="button button-light">Welcome</a>
-      <a href="#light-button" class="button button-dark">Welcome</a>
+      <a href="#dark-button" class="button sbutton-dark">Welcome</a>
       <h2>Switches (Checkboxes)</h2>
-      <input type="checkbox" class="checkbox checkbox-light" />
-      <input type="checkbox" class="checkbox checkbox-dark" />
+      <input type="checkbox" class="checkbox" />
       <h2>Cards (Divs)</h2>
-      <div class="card card-light">
-        <h3>This is a Card</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      </div>
-      <div class="card card-dark">
+      <div class="card">
         <h3>This is a Card</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -37,11 +34,11 @@
           in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
       <h2>Textareas</h2>
-      <textarea placeholder="Write down your feelings!" class="textarea textarea-light" rows="6" cols="31"></textarea>
-      <textarea placeholder="Do it now." class="textarea textarea-dark" rows="6" cols="31"></textarea>
+      <textarea placeholder="Write down your feelings!" class="textarea" rows="6" cols="31"></textarea>
       <h2>Textboxes</h2>
-      <input placeholder="Username" type="text" class="textbox textbox-light">
-      <input placeholder="Password" type="password" class="textbox textbox-dark">
+      <input placeholder="Username" type="text" class="textbox">
+      <input placeholder="Password" type="password" class="textbox">
     </div>
     </body>
+    <script src="../static/js/main.js"></script>
 </html>

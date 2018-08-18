@@ -1,10 +1,18 @@
 body {
   font-family: "Roboto", sans-serif;
   padding: 0px 1em 1em;
+  background-color: #FEFEFE;
 }
 
 div.elements {
   padding: 0em 1em;
+}
+
+div.toolbar {
+  float: right;
+  z-index: 1;
+  text-align: center;
+  margin-top: -3.5em;
 }
 
 /* BUTTONS */
