@@ -9,10 +9,22 @@ div.elements {
 }
 
 div.toolbar {
-  float: right;
+  cursor: default;
+  position: absolute;
   z-index: 1;
+  top: 3em;
+  right: 0em;
   text-align: center;
-  margin-top: -3.5em;
+  padding: 0.5em;
+  background: rgb(100, 100, 100);
+  border-radius: 1em 0em 0em 1em;
+  color: #E0E0E0;
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+}
+
+div.toolbar:hover {
+  opacity: 1;
 }
 
 /* BUTTONS */
