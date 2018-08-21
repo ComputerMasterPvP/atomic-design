@@ -1,40 +1,40 @@
 /* BUTTONS */
 
-a.button, a.button-dark {
+a.button-dark {
   color: #E0E0E0;
   background-color: #303030;
 }
 
 /* CHECKBOXES */
 
-input.checkbox, input.checkbox-dark {
+input.checkbox-dark {
   background-color: #BBBBBB;
 }
 
-input.checkbox:checked, input.checkbox-dark:checked {
+input.checkbox-dark:checked {
   background-color: #303030;
 }
 
-input.checkbox::after, input.checkbox-dark::after {
+input.checkbox-dark::after {
   background-color: white;
 }
 
 /* CARDS */
 
-div.card, div.card-dark {
+div.card-dark {
   background-color: #303030;
   color: #E0E0E0;
 }
 
 /* TEXTAREAS */
 
-textarea.textarea, textarea.textarea-dark {
+textarea.textarea-dark {
   background-color: #303030;
   color: #E0E0E0;
 }
 
 /* TEXTBOXES */
-input.textbox, input.textbox-dark {
+input.textbox-dark {
   background-color: #303030;
   color: #E0E0E0;
 }

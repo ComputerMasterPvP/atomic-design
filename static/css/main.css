@@ -1,31 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
   padding: 0px 1em 1em;
-  background-color: #FEFEFE;
 }
 
 div.elements {
   padding: 0em 1em;
 }
 
-div.toolbar {
-  cursor: default;
-  position: absolute;
-  z-index: 1;
-  top: 3em;
-  right: 0em;
-  text-align: center;
-  padding: 0.5em;
-  background: rgb(100, 100, 100);
-  border-radius: 1em 0em 0em 1em;
-  color: #E0E0E0;
-  opacity: 0.5;
-  transition: opacity 0.5s ease-in-out;
-}
-
-div.toolbar:hover {
-  opacity: 1;
-}
 
 /* BUTTONS */
 
