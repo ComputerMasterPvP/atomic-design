@@ -18,8 +18,8 @@ a.button {
   padding: 1em 1.10em;
   font-size: default;
   border: none;
-  border-radius: 0.2em;
-  box-shadow: #757575 1px 3px 8px 0px;
+  border-radius: 6px;
+  box-shadow: #757575 1px 3px 6px 0px;
 }
 
 /* CHECKBOXES */
@@ -57,7 +57,7 @@ div.card {
   margin: 0.5em;
   padding: 1em;
   border-radius: 0.5em;
-  box-shadow: #757575 1px 3px 8px 0px;
+  box-shadow: #757575 1px 3px 6px 0px;
   width: 20em;
 }
 
@@ -69,7 +69,7 @@ textarea.textarea {
   border-radius: 0.5em;
   border: none;
   resize: none;
-  box-shadow: #757575 1px 3px 8px 0px;
+  box-shadow: #757575 1px 3px 6px 0px;
   font-size: 1em;
   font-family: inherit;
 }
@@ -81,6 +81,6 @@ input.textbox {
   font-family: inherit;
   font-size: 1em;
   border: none;
-  border-radius: 0.2em;
+  border-radius: 6px;
   margin: 0.5em;
 }
